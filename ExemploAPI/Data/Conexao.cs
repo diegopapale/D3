@@ -16,7 +16,7 @@ namespace ExemploAPI.Data
             try
             {
                 string connetionString =
-                    @"Database=TestePratico;Server=BRUNO;User ID=sa;Password=bmc0785;";
+                    @"Database=TestePratico;Server=localhost;User ID=sa;Password=bmc0785;";
                 SqlConnection conn = new SqlConnection(connetionString);
                 conn.Open();
                 return conn;

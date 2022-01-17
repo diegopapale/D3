@@ -13,7 +13,7 @@ namespace WebApplication3.Data
             try
             {
 
-                string connetionString = @"Provider=SQLOLEDB.1;Persist Security Info=False;User ID=sa;Initial Catalog=TestePratico;Data Source=BRUNO";
+                string connetionString = @"Provider=SQLOLEDB.1;Persist Security Info=False;User ID=sa;Initial Catalog=TestePratico;Data Source=localhost";
                 SqlConnection conn = new SqlConnection(connetionString);
                 conn.Open();
                 return conn;
